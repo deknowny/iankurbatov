@@ -3,20 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ian Kurbatov — Software Developer</title>
-  <meta name="description" content="Independent software developer building mobile apps, backend systems, and security-focused digital products." />
+  <title>Ian Kurbatov — Full-Stack Developer</title>
+  <meta
+    name="description"
+    content="Full-Stack developer building mobile apps, backend systems, websites, bots, and security-focused digital products."
+  />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            ink: '#0f172a',
-            mist: '#f8fafc',
-            line: 'rgba(15, 23, 42, 0.08)'
+            ink: "#0f172a",
+            mist: "#f8fafc",
+            line: "rgba(15, 23, 42, 0.08)"
           },
           boxShadow: {
-            soft: '0 20px 60px rgba(15, 23, 42, 0.08)'
+            soft: "0 20px 60px rgba(15, 23, 42, 0.08)"
           }
         }
       }
@@ -24,8 +27,7 @@
   </script>
   <style>
     html { scroll-behavior: smooth; }
-    body { font-feature-settings: 'liga' 1, 'calt' 1; }
-    .lang-hidden { display: none !important; }
+    body { font-feature-settings: "liga" 1, "calt" 1; }
     .grid-bg {
       background-image:
         linear-gradient(to right, rgba(15, 23, 42, 0.04) 1px, transparent 1px),
@@ -45,13 +47,13 @@
 <body class="bg-white text-slate-900 antialiased">
   <header class="sticky top-0 z-50 border-b border-line bg-white/80 backdrop-blur">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-      <a href="#top" class="text-sm font-semibold tracking-[0.24em] text-slate-900 uppercase">Ian Kurbatov</a>
+      <a href="#top" class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-900">
+        Ian Kurbatov
+      </a>
 
       <div class="flex items-center gap-3">
         <nav class="hidden items-center gap-6 md:flex">
-          <a href="#about" class="text-sm text-slate-600 transition hover:text-slate-900" data-i18n="nav_about">About</a>
-          <a href="#services" class="text-sm text-slate-600 transition hover:text-slate-900" data-i18n="nav_services">Services</a>
-          <a href="#projects" class="text-sm text-slate-600 transition hover:text-slate-900" data-i18n="nav_projects">Projects</a>
+          <a href="#skills" class="text-sm text-slate-600 transition hover:text-slate-900" data-i18n="nav_skills">Skills</a>
           <a href="#contact" class="text-sm text-slate-600 transition hover:text-slate-900" data-i18n="nav_contact">Contact</a>
         </nav>
 
@@ -68,7 +70,7 @@
       <div class="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:px-8 lg:py-24">
         <div>
           <div class="mb-6 inline-flex items-center rounded-full border border-slate-200 bg-white/80 px-4 py-2 text-sm text-slate-600 shadow-sm">
-            <span data-i18n="hero_badge">Independent software developer · Madrid, Spain</span>
+            <span data-i18n="hero_badge">Software development · Madrid, Spain</span>
           </div>
 
           <h1 class="max-w-4xl text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl lg:text-6xl" data-i18n="hero_title">
@@ -76,12 +78,16 @@
           </h1>
 
           <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600" data-i18n="hero_text">
-            I design and build modern software with a strong focus on product quality, performance, clean architecture, and reliable user experience.
+            My team design and build modern software with a strong focus on product quality, performance, clean architecture, and reliable user experience.
           </p>
 
           <div class="mt-10 flex flex-wrap gap-4">
-            <a href="#contact" class="rounded-full bg-slate-950 px-6 py-3 text-sm font-medium text-white transition hover:bg-slate-800" data-i18n="hero_cta_primary">Get in touch</a>
-            <a href="#skills" class="rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-medium text-slate-900 transition hover:border-slate-400" data-i18n="hero_cta_secondary">View stack</a>
+            <a href="#contact" class="rounded-full bg-slate-950 px-6 py-3 text-sm font-medium text-white transition hover:bg-slate-800" data-i18n="hero_cta_primary">
+              Get in touch
+            </a>
+            <a href="#skills" class="rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-medium text-slate-900 transition hover:border-slate-400" data-i18n="hero_cta_secondary">
+              View stack
+            </a>
           </div>
 
           <div class="mt-12 grid gap-4 sm:grid-cols-3">
@@ -103,62 +109,18 @@
         <div class="relative max-w-[24rem] lg:ml-auto xl:max-w-[26rem]">
           <div class="absolute inset-0 -translate-x-4 translate-y-4 rounded-[2rem] bg-slate-100"></div>
           <div class="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-soft">
-            <img src="assets/hero-workspace.jpg" alt="Workspace or portrait" class="aspect-[2/3] w-full object-cover object-center" />
+            <img
+              src="assets/hero-workspace.jpg"
+              alt="Workspace or portrait"
+              class="aspect-[2/3] w-full object-cover object-center"
+            />
             <div class="border-t border-slate-200 p-5">
-              <div class="text-sm font-medium text-slate-950" data-i18n="hero_card_title">Building digital products end to end</div>
+              <div class="text-sm font-medium text-slate-950">Ian Kurbatov</div>
               <p class="mt-2 text-sm leading-7 text-slate-600" data-i18n="hero_card_text">
-                From concept and interface design to backend architecture, integrations, deployment, and product iteration.
+                I have been creating IT solutions since 2019. My journey began with backend development in startups, and today I organize development processes for applications, bots, and websites.
               </p>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section-anchor border-b border-line bg-white">
-      <div class="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
-        <div>
-          <p class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-500" data-i18n="about_kicker">About</p>
-          <h2 class="mt-4 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl" data-i18n="about_title">Software development with product thinking.</h2>
-        </div>
-        <div class="space-y-6 text-lg leading-8 text-slate-600">
-          <p data-i18n="about_p1">
-            I am an independent software developer focused on mobile applications, backend systems, and security-oriented products. My work combines engineering, product design, and practical execution.
-          </p>
-          <p data-i18n="about_p2">
-            I build software that is meant to be used in the real world: fast, maintainable, reliable, and designed with attention to user experience.
-          </p>
-          <p data-i18n="about_p3">
-            I work on both my own products and custom development, helping turn ideas into production-ready digital solutions.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="services" class="section-anchor border-b border-line bg-slate-50/70">
-      <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-        <div class="max-w-3xl">
-          <p class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-500" data-i18n="services_kicker">Services</p>
-          <h2 class="mt-4 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl" data-i18n="services_title">What I do</h2>
-        </div>
-
-        <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-          <article class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
-            <h3 class="text-xl font-semibold text-slate-950" data-i18n="service_1_title">iOS App Development</h3>
-            <p class="mt-4 text-sm leading-7 text-slate-600" data-i18n="service_1_text">Native iPhone and iPad applications built with attention to performance, polish, and long-term maintainability.</p>
-          </article>
-          <article class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
-            <h3 class="text-xl font-semibold text-slate-950" data-i18n="service_2_title">Backend & API Engineering</h3>
-            <p class="mt-4 text-sm leading-7 text-slate-600" data-i18n="service_2_text">Robust backend services, API design, integrations, and architecture for modern digital products.</p>
-          </article>
-          <article class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
-            <h3 class="text-xl font-semibold text-slate-950" data-i18n="service_3_title">Network & Security Solutions</h3>
-            <p class="mt-4 text-sm leading-7 text-slate-600" data-i18n="service_3_text">Development of privacy-minded and security-focused software, including networking-heavy applications and infrastructure.</p>
-          </article>
-          <article class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
-            <h3 class="text-xl font-semibold text-slate-950" data-i18n="service_4_title">MVP & Product Prototyping</h3>
-            <p class="mt-4 text-sm leading-7 text-slate-600" data-i18n="service_4_text">From concept to first release: prototyping, product structuring, interface implementation, and launch-ready delivery.</p>
-          </article>
         </div>
       </div>
     </section>
@@ -169,7 +131,9 @@
           <div>
             <p class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-500" data-i18n="skills_kicker">Skills</p>
             <h2 class="mt-4 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl" data-i18n="skills_title">Technology stack</h2>
-            <p class="mt-6 max-w-md text-base leading-7 text-slate-600" data-i18n="skills_intro">A practical stack shaped by product engineering, systems work, networking, and infrastructure.</p>
+            <p class="mt-6 max-w-md text-base leading-7 text-slate-600" data-i18n="skills_intro">
+              A practical stack shaped by product engineering, systems work, networking, infrastructure, and launch-focused execution.
+            </p>
           </div>
 
           <div class="grid gap-5 md:grid-cols-2">
@@ -209,10 +173,11 @@
               <div class="mt-5 flex flex-wrap gap-2 text-sm font-medium">
                 <span class="rounded-full bg-purple-100 px-3 py-1.5 text-purple-800">EVM</span>
                 <span class="rounded-full bg-violet-100 px-3 py-1.5 text-violet-800">Solidity</span>
+                <span class="rounded-full bg-fuchsia-100 px-3 py-1.5 text-fuchsia-800">Solana</span>
               </div>
             </div>
 
-            <div class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft md:col-span-1 shadow-soft">
+            <div class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
               <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_cicd_title">CI/CD</h3>
               <div class="mt-5 flex flex-wrap gap-2 text-sm font-medium">
                 <span class="rounded-full bg-slate-200 px-3 py-1.5 text-slate-800">Docker</span>
@@ -221,47 +186,13 @@
               </div>
             </div>
 
-            <div class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft md:col-span-1">
+            <div class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
               <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_db_title">Database</h3>
               <div class="mt-5 flex flex-wrap gap-2 text-sm font-medium">
                 <span class="rounded-full bg-blue-100 px-3 py-1.5 text-blue-800">PostgreSQL</span>
                 <span class="rounded-full bg-sky-100 px-3 py-1.5 text-sky-800">ACID</span>
                 <span class="rounded-full bg-cyan-100 px-3 py-1.5 text-cyan-800">Locks</span>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="process" class="section-anchor border-b border-line bg-white">
-      <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-        <div class="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
-          <div>
-            <p class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-500" data-i18n="process_kicker">Process</p>
-            <h2 class="mt-4 text-3xl font-semibold tracking-tight text-slate-950" data-i18n="process_title">How I work</h2>
-          </div>
-          <div class="grid gap-4 sm:grid-cols-2">
-            <div class="rounded-[2rem] border border-slate-200 p-6">
-              <div class="text-sm font-semibold text-slate-400">01</div>
-              <h3 class="mt-2 text-lg font-semibold text-slate-950" data-i18n="process_1_title">Discovery</h3>
-              <p class="mt-3 text-sm leading-7 text-slate-600" data-i18n="process_1_text">Clarifying goals, scope, constraints, and product direction.</p>
-            </div>
-            <div class="rounded-[2rem] border border-slate-200 p-6">
-              <div class="text-sm font-semibold text-slate-400">02</div>
-              <h3 class="mt-2 text-lg font-semibold text-slate-950" data-i18n="process_2_title">Architecture</h3>
-              <p class="mt-3 text-sm leading-7 text-slate-600" data-i18n="process_2_text">Choosing the right technical approach for a scalable and maintainable build.</p>
-            </div>
-            <div class="rounded-[2rem] border border-slate-200 p-6">
-              <div class="text-sm font-semibold text-slate-400">03</div>
-              <h3 class="mt-2 text-lg font-semibold text-slate-950" data-i18n="process_3_title">Development</h3>
-              <p class="mt-3 text-sm leading-7 text-slate-600" data-i18n="process_3_text">Implementing the product with focus on quality, performance, and clarity.</p>
-            </div>
-            <div class="rounded-[2rem] border border-slate-200 p-6">
-              <div class="text-sm font-semibold text-slate-400">04</div>
-              <h3 class="mt-2 text-lg font-semibold text-slate-950" data-i18n="process_4_title">Launch & iteration</h3>
-              <p class="mt-3 text-sm leading-7 text-slate-600" data-i18n="process_4_text">Testing, release preparation, support, and continued improvement.</p>
             </div>
           </div>
         </div>
@@ -282,18 +213,27 @@
           <div class="space-y-6 text-sm text-slate-300">
             <div>
               <div class="text-slate-400" data-i18n="contact_email_label">Email</div>
-              <a href="mailto:hello@example.com" class="mt-2 inline-block text-base font-medium text-white hover:text-slate-200">hello@example.com</a>
+              <a href="mailto:ask@iankurvatov.ru" class="mt-2 inline-block text-base font-medium text-white hover:text-slate-200">
+                ask@iankurbatov.ru
+              </a>
             </div>
+
             <div>
               <div class="text-slate-400" data-i18n="contact_location_label">Location</div>
               <div class="mt-2 text-base font-medium text-white" data-i18n="contact_location_value">Madrid, Spain</div>
             </div>
+
             <div>
               <div class="text-slate-400" data-i18n="contact_links_label">Links</div>
               <div class="mt-3 flex flex-wrap gap-3">
-                <a href="#" class="rounded-full border border-white/15 px-4 py-2 text-white transition hover:bg-white/10">GitHub</a>
-                <a href="#" class="rounded-full border border-white/15 px-4 py-2 text-white transition hover:bg-white/10">LinkedIn</a>
-                <a href="#" class="rounded-full border border-white/15 px-4 py-2 text-white transition hover:bg-white/10">Telegram</a>
+                <a
+                  href="https://github.com/deknowny"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="rounded-full border border-white/15 px-4 py-2 text-white transition hover:bg-white/10"
+                >
+                  GitHub
+                </a>
               </div>
             </div>
           </div>
@@ -305,171 +245,123 @@
   <footer class="border-t border-white/10 bg-slate-950">
     <div class="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-6 text-sm text-slate-400 lg:flex-row lg:items-center lg:justify-between lg:px-8">
       <div>© <span id="year"></span> Ian Kurbatov</div>
-      <div data-i18n="footer_text">Independent software developer — mobile, backend, and security-focused products.</div>
+      <div data-i18n="footer_text">Full-Stack developer — mobile, backend, websites, bots, and security-focused products.</div>
     </div>
   </footer>
 
   <script>
     const translations = {
       en: {
-        nav_about: 'About',
-        nav_services: 'Services',
-        nav_projects: 'Skills',
-        nav_contact: 'Contact',
-        hero_badge: 'Independent software developer · Madrid, Spain',
-        hero_title: 'Mobile apps, backend systems, and security-focused digital products.',
-        hero_text: 'I design and build modern software with a strong focus on product quality, performance, clean architecture, and reliable user experience.',
-        hero_cta_primary: 'Get in touch',
-        hero_cta_secondary: 'View stack',
-        hero_stat_1: 'Swift, SwiftUI, mobile product development',
-        hero_stat_2: 'APIs, infrastructure, service architecture',
-        hero_stat_3: 'Networking, privacy-minded engineering',
-        hero_card_title: 'Building digital products end to end',
-        hero_card_text: 'From concept and interface design to backend architecture, integrations, deployment, and product iteration.',
-        about_kicker: 'About',
-        about_title: 'Software development with product thinking.',
-        about_p1: 'I am an independent software developer focused on mobile applications, backend systems, and security-oriented products. My work combines engineering, product design, and practical execution.',
-        about_p2: 'I build software that is meant to be used in the real world: fast, maintainable, reliable, and designed with attention to user experience.',
-        about_p3: 'I work on both my own products and custom development, helping turn ideas into production-ready digital solutions.',
-        services_kicker: 'Services',
-        services_title: 'What I do',
-        service_1_title: 'iOS App Development',
-        service_1_text: 'Native iPhone and iPad applications built with attention to performance, polish, and long-term maintainability.',
-        service_2_title: 'Backend & API Engineering',
-        service_2_text: 'Robust backend services, API design, integrations, and architecture for modern digital products.',
-        service_3_title: 'Network & Security Solutions',
-        service_3_text: 'Development of privacy-minded and security-focused software, including networking-heavy applications and infrastructure.',
-        service_4_title: 'MVP & Product Prototyping',
-        service_4_text: 'From concept to first release: prototyping, product structuring, interface implementation, and launch-ready delivery.',
-        skills_kicker: 'Skills',
-        skills_title: 'Technology stack',
-        skills_1_title: 'Mobile',
-        skills_2_title: 'Backend',
-        skills_3_title: 'Infrastructure',
-        skills_4_title: 'Engineering Focus',
-        skills_4_text: 'Security · Performance · Product Thinking · Maintainable Code',
-        skills_intro: 'A practical stack shaped by product engineering, systems work, networking, and infrastructure.',
-        skills_ios_title: 'iOS Applications',
-        skills_backend_title: 'Backend',
-        skills_network_title: 'Network',
-        skills_blockchain_title: 'Blockchain',
-        skills_cicd_title: 'CI/CD',
-        skills_db_title: 'Database',
-        tag_lockfree: 'Safe & lock-free concurrency',
-        process_kicker: 'Process',
-        process_title: 'How I work',
-        process_1_title: 'Discovery',
-        process_1_text: 'Clarifying goals, scope, constraints, and product direction.',
-        process_2_title: 'Architecture',
-        process_2_text: 'Choosing the right technical approach for a scalable and maintainable build.',
-        process_3_title: 'Development',
-        process_3_text: 'Implementing the product with focus on quality, performance, and clarity.',
-        process_4_title: 'Launch & iteration',
-        process_4_text: 'Testing, release preparation, support, and continued improvement.',
-        contact_kicker: 'Contact',
-        contact_title: 'Let’s build something solid.',
-        contact_text: 'Open to product collaboration, custom development, and technical consulting.',
-        contact_email_label: 'Email',
-        contact_location_label: 'Location',
-        contact_location_value: 'Madrid, Spain',
-        contact_links_label: 'Links',
-        footer_text: 'Independent software developer — mobile, backend, and security-focused products.'
+        nav_skills: "Skills",
+        nav_contact: "Contact",
+
+        hero_badge: "Software development · Madrid, Spain",
+        hero_title: "Mobile apps, backend systems, and security-focused digital products.",
+        hero_text: "My team design and build modern software with a strong focus on product quality, performance, clean architecture, and reliable user experience.",
+        hero_cta_primary: "Get in touch",
+        hero_cta_secondary: "View stack",
+        hero_stat_1: "Swift, SwiftUI, mobile product development",
+        hero_stat_2: "APIs, infrastructure, service architecture",
+        hero_stat_3: "Networking, privacy-minded engineering",
+        hero_card_text: "I have been creating IT solutions since 2019. My journey began with backend development in startups, and today I organize development processes for applications, bots, and websites.",
+
+        skills_kicker: "Skills",
+        skills_title: "Technology stack",
+        skills_intro: "A practical stack shaped by product engineering, systems work, networking, infrastructure, and launch-focused execution.",
+        skills_ios_title: "iOS Applications",
+        skills_backend_title: "Backend",
+        skills_network_title: "Network",
+        skills_blockchain_title: "Blockchain",
+        skills_cicd_title: "CI/CD",
+        skills_db_title: "Database",
+        tag_lockfree: "Safe & lock-free concurrency",
+
+        contact_kicker: "Contact",
+        contact_title: "Let’s build something solid.",
+        contact_text: "Open to product collaboration, custom development, and technical consulting.",
+        contact_email_label: "Email",
+        contact_location_label: "Location",
+        contact_location_value: "Madrid, Spain",
+        contact_links_label: "Links",
+
+        footer_text: "Full-Stack developer — mobile, backend, websites, bots, and security-focused products."
       },
       ru: {
-        nav_about: 'Обо мне',
-        nav_services: 'Услуги',
-        nav_projects: 'Стек',
-        nav_contact: 'Контакты',
-        hero_badge: 'Независимый разработчик ПО · Мадрид, Испания',
-        hero_title: 'Мобильные приложения, backend-системы и цифровые продукты с упором на безопасность.',
-        hero_text: 'Я проектирую и разрабатываю современное ПО с акцентом на качество продукта, производительность, чистую архитектуру и надёжный пользовательский опыт.',
-        hero_cta_primary: 'Связаться',
-        hero_cta_secondary: 'Смотреть стек',
-        hero_stat_1: 'Swift, SwiftUI, разработка мобильных продуктов',
-        hero_stat_2: 'API, инфраструктура, архитектура сервисов',
-        hero_stat_3: 'Сетевые решения и privacy-oriented engineering',
-        hero_card_title: 'Разработка цифровых продуктов под ключ',
-        hero_card_text: 'От идеи и интерфейса до архитектуры backend, интеграций, деплоя и дальнейшего развития продукта.',
-        about_kicker: 'Обо мне',
-        about_title: 'Разработка со взглядом на продукт.',
-        about_p1: 'Я независимый разработчик, специализирующийся на мобильных приложениях, backend-системах и продуктах, где важны безопасность и надёжность. В моей работе сочетаются инженерный подход, продуктовое мышление и практическая реализация.',
-        about_p2: 'Я создаю софт для реального использования: быстрый, поддерживаемый, надёжный и продуманный с точки зрения пользовательского опыта.',
-        about_p3: 'Я работаю как над собственными продуктами, так и над заказной разработкой, помогая превращать идеи в готовые к запуску цифровые решения.',
-        services_kicker: 'Услуги',
-        services_title: 'Чем я занимаюсь',
-        service_1_title: 'Разработка iOS-приложений',
-        service_1_text: 'Нативные приложения для iPhone и iPad с вниманием к производительности, качеству интерфейса и долгосрочной поддерживаемости.',
-        service_2_title: 'Backend и API',
-        service_2_text: 'Надёжные backend-сервисы, проектирование API, интеграции и архитектура для современных цифровых продуктов.',
-        service_3_title: 'Сетевые и security-решения',
-        service_3_text: 'Разработка продуктов с фокусом на приватность и безопасность, включая сетевые приложения и инфраструктурные решения.',
-        service_4_title: 'MVP и прототипирование',
-        service_4_text: 'От идеи до первого релиза: прототипирование, структурирование продукта, реализация интерфейсов и подготовка к запуску.',
-        skills_kicker: 'Навыки',
-        skills_title: 'Технологический стек',
-        skills_1_title: 'Mobile',
-        skills_2_title: 'Backend',
-        skills_3_title: 'Infrastructure',
-        skills_4_title: 'Фокус в инженерии',
-        skills_4_text: 'Безопасность · Производительность · Продуктовый подход · Поддерживаемый код',
-        skills_intro: 'Практический стек, сформированный продуктовой разработкой, системным подходом, сетями и инфраструктурой.',
-        skills_ios_title: 'iOS Applications',
-        skills_backend_title: 'Backend',
-        skills_network_title: 'Network',
-        skills_blockchain_title: 'Blockchain',
-        skills_cicd_title: 'CI/CD',
-        skills_db_title: 'Database',
-        tag_lockfree: 'Безопасная и lock-free concurrency',
-        process_kicker: 'Процесс',
-        process_title: 'Как я работаю',
-        process_1_title: 'Погружение',
-        process_1_text: 'Определение целей, объёма задач, ограничений и направления продукта.',
-        process_2_title: 'Архитектура',
-        process_2_text: 'Подбор технического подхода для масштабируемой и поддерживаемой реализации.',
-        process_3_title: 'Разработка',
-        process_3_text: 'Создание продукта с фокусом на качество, производительность и понятность решения.',
-        process_4_title: 'Запуск и развитие',
-        process_4_text: 'Тестирование, подготовка релиза, сопровождение и дальнейшее улучшение.',
-        contact_kicker: 'Контакты',
-        contact_title: 'Давайте соберём что-то действительно надёжное.',
-        contact_text: 'Открыт к продуктовым коллаборациям, заказной разработке и техническому консалтингу.',
-        contact_email_label: 'Почта',
-        contact_location_label: 'Локация',
-        contact_location_value: 'Мадрид, Испания',
-        contact_links_label: 'Ссылки',
-        footer_text: 'Независимый разработчик ПО — мобильные приложения, backend и security-focused продукты.'
+        nav_skills: "Навыки",
+        nav_contact: "Контакты",
+
+        hero_badge: "Разработка ПО · Мадрид, Испания",
+        hero_title: "Мобильные приложения, backend-системы и цифровые продукты с упором на безопасность.",
+        hero_text: "Моя команда проектирует и разрабатывает современное ПО с акцентом на качество продукта, производительность, чистую архитектуру и надёжный пользовательский опыт.",
+        hero_cta_primary: "Связаться",
+        hero_cta_secondary: "Смотреть стек",
+        hero_stat_1: "Swift, SwiftUI, разработка мобильных продуктов",
+        hero_stat_2: "API, инфраструктура, архитектура сервисов",
+        hero_stat_3: "Сетевые решения и privacy-oriented engineering",
+        hero_card_text: "Я создаю IT-решения с 2019 года. Мой путь начался с backend-разработки в стартапах. Сегодня я организовываю процессы разработки приложений, ботов и веб-сайтов.",
+
+        skills_kicker: "Навыки",
+        skills_title: "Технологический стек",
+        skills_intro: "Практический стек, сформированный продуктовой разработкой, системным подходом, сетями, инфраструктурой и фокусом на запуск.",
+        skills_ios_title: "iOS Applications",
+        skills_backend_title: "Backend",
+        skills_network_title: "Network",
+        skills_blockchain_title: "Blockchain",
+        skills_cicd_title: "CI/CD",
+        skills_db_title: "Database",
+        tag_lockfree: "Безопасная и lock-free concurrency",
+
+        contact_kicker: "Контакты",
+        contact_title: "Давайте соберём что-то действительно надёжное.",
+        contact_text: "Открыт к продуктовым коллаборациям, заказной разработке и техническому консалтингу.",
+        contact_email_label: "Почта",
+        contact_location_label: "Локация",
+        contact_location_value: "Мадрид, Испания",
+        contact_links_label: "Ссылки",
+
+        footer_text: "Full-Stack разработчик — мобильные приложения, backend, веб-сайты, боты и security-focused продукты."
       }
     };
 
     const langButtons = {
-      ru: document.getElementById('lang-ru'),
-      en: document.getElementById('lang-en')
+      ru: document.getElementById("lang-ru"),
+      en: document.getElementById("lang-en")
     };
 
     function applyLanguage(lang) {
       const dict = translations[lang] || translations.en;
       document.documentElement.lang = lang;
-      localStorage.setItem('site-language', lang);
+      localStorage.setItem("site-language", lang);
 
-      document.querySelectorAll('[data-i18n]').forEach((el) => {
-        const key = el.getAttribute('data-i18n');
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
         if (dict[key]) el.textContent = dict[key];
       });
 
-      document.title = lang === 'ru'
-        ? 'Ian Kurbatov — Разработчик ПО'
-        : 'Ian Kurbatov — Software Developer';
+      document.title =
+        lang === "ru"
+          ? "Ian Kurbatov — Full-Stack разработчик"
+          : "Ian Kurbatov — Full-Stack Developer";
 
-      langButtons.ru.className = `rounded-full px-3 py-1.5 text-sm font-medium transition ${lang === 'ru' ? 'bg-slate-950 text-white' : 'text-slate-600 hover:text-slate-900'}`;
-      langButtons.en.className = `rounded-full px-3 py-1.5 text-sm font-medium transition ${lang === 'en' ? 'bg-slate-950 text-white' : 'text-slate-600 hover:text-slate-900'}`;
+      langButtons.ru.className =
+        "rounded-full px-3 py-1.5 text-sm font-medium transition " +
+        (lang === "ru"
+          ? "bg-slate-950 text-white"
+          : "text-slate-600 hover:text-slate-900");
+
+      langButtons.en.className =
+        "rounded-full px-3 py-1.5 text-sm font-medium transition " +
+        (lang === "en"
+          ? "bg-slate-950 text-white"
+          : "text-slate-600 hover:text-slate-900");
     }
 
-    langButtons.ru.addEventListener('click', () => applyLanguage('ru'));
-    langButtons.en.addEventListener('click', () => applyLanguage('en'));
+    langButtons.ru.addEventListener("click", () => applyLanguage("ru"));
+    langButtons.en.addEventListener("click", () => applyLanguage("en"));
 
-    const savedLang = localStorage.getItem('site-language');
-    applyLanguage(savedLang === 'ru' || savedLang === 'en' ? savedLang : 'en');
-    document.getElementById('year').textContent = new Date().getFullYear();
+    const savedLang = localStorage.getItem("site-language");
+    applyLanguage(savedLang === "ru" || savedLang === "en" ? savedLang : "en");
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
