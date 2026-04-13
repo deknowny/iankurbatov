@@ -81,7 +81,7 @@
 
           <div class="mt-10 flex flex-wrap gap-4">
             <a href="#contact" class="rounded-full bg-slate-950 px-6 py-3 text-sm font-medium text-white transition hover:bg-slate-800" data-i18n="hero_cta_primary">Get in touch</a>
-            <a href="#projects" class="rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-medium text-slate-900 transition hover:border-slate-400" data-i18n="hero_cta_secondary">View projects</a>
+            <a href="#skills" class="rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-medium text-slate-900 transition hover:border-slate-400" data-i18n="hero_cta_secondary">View stack</a>
           </div>
 
           <div class="mt-12 grid gap-4 sm:grid-cols-3">
@@ -165,76 +165,75 @@
 
     <section id="skills" class="section-anchor border-b border-line bg-white">
       <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-        <div class="grid gap-8 lg:grid-cols-4">
+        <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
             <p class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-500" data-i18n="skills_kicker">Skills</p>
-            <h2 class="mt-4 text-3xl font-semibold tracking-tight text-slate-950" data-i18n="skills_title">Technology stack</h2>
+            <h2 class="mt-4 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl" data-i18n="skills_title">Technology stack</h2>
+            <p class="mt-6 max-w-md text-base leading-7 text-slate-600" data-i18n="skills_intro">A practical stack shaped by product engineering, systems work, networking, and infrastructure.</p>
           </div>
 
-          <div class="lg:col-span-3 grid gap-6 md:grid-cols-2">
-            <div class="rounded-[2rem] border border-slate-200 p-7">
-              <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_1_title">Mobile</h3>
-              <p class="mt-3 text-sm leading-7 text-slate-600">Swift · SwiftUI · UIKit · WidgetKit · NetworkExtension</p>
-            </div>
-            <div class="rounded-[2rem] border border-slate-200 p-7">
-              <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_2_title">Backend</h3>
-              <p class="mt-3 text-sm leading-7 text-slate-600">Rust · APIs · OpenAPI · PostgreSQL · Service Architecture</p>
-            </div>
-            <div class="rounded-[2rem] border border-slate-200 p-7">
-              <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_3_title">Infrastructure</h3>
-              <p class="mt-3 text-sm leading-7 text-slate-600">Docker · Linux · Deployment · CI/CD · Integrations</p>
-            </div>
-            <div class="rounded-[2rem] border border-slate-200 p-7">
-              <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_4_title">Engineering Focus</h3>
-              <p class="mt-3 text-sm leading-7 text-slate-600" data-i18n="skills_4_text">Security · Performance · Product Thinking · Maintainable Code</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section-anchor border-b border-line bg-slate-50/70">
-      <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-        <div class="max-w-3xl">
-          <p class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-500" data-i18n="projects_kicker">Projects</p>
-          <h2 class="mt-4 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl" data-i18n="projects_title">Selected work</h2>
-        </div>
-
-        <div class="mt-12 grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
-          <article class="overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-soft">
-            <img src="assets/project-lattepq.jpg" alt="Project preview" class="h-72 w-full object-cover" />
-            <div class="p-8">
-              <div class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">LattePQ</div>
-              <h3 class="mt-3 text-2xl font-semibold text-slate-950" data-i18n="project_feature_title">Post-quantum VPN app for iOS</h3>
-              <p class="mt-4 text-sm leading-7 text-slate-600" data-i18n="project_feature_text">
-                A modern iOS application focused on secure connectivity, mobile UX, networking architecture, and clean product execution.
-              </p>
-              <div class="mt-6 flex flex-wrap gap-2 text-xs text-slate-600">
-                <span class="rounded-full bg-slate-100 px-3 py-1">SwiftUI</span>
-                <span class="rounded-full bg-slate-100 px-3 py-1">NetworkExtension</span>
-                <span class="rounded-full bg-slate-100 px-3 py-1">API Integration</span>
-                <span class="rounded-full bg-slate-100 px-3 py-1">Security</span>
+          <div class="grid gap-5 md:grid-cols-2">
+            <div class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
+              <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_ios_title">iOS Applications</h3>
+              <div class="mt-5 flex flex-wrap gap-2 text-sm font-medium">
+                <span class="rounded-full bg-sky-100 px-3 py-1.5 text-sky-800">SwiftUI</span>
+                <span class="rounded-full bg-indigo-100 px-3 py-1.5 text-indigo-800">GO/C-bindings</span>
+                <span class="rounded-full bg-cyan-100 px-3 py-1.5 text-cyan-800">API-Flows</span>
               </div>
             </div>
-          </article>
 
-          <div class="grid gap-6">
-            <article class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
-              <h3 class="text-xl font-semibold text-slate-950" data-i18n="project_2_title">Custom backend systems</h3>
-              <p class="mt-4 text-sm leading-7 text-slate-600" data-i18n="project_2_text">Service architecture, APIs, admin tooling, and backend logic for digital products and internal platforms.</p>
-            </article>
-            <article class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
-              <h3 class="text-xl font-semibold text-slate-950" data-i18n="project_3_title">Networking prototypes</h3>
-              <p class="mt-4 text-sm leading-7 text-slate-600" data-i18n="project_3_text">Research and development of networking-heavy software, secure protocols, and infrastructure-oriented product ideas.</p>
-            </article>
-            <article class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
-              <h3 class="text-xl font-semibold text-slate-950" data-i18n="project_4_title">Product prototyping</h3>
-              <p class="mt-4 text-sm leading-7 text-slate-600" data-i18n="project_4_text">Rapid concept validation, interface implementation, and first-version delivery for new software products.</p>
-            </article>
+            <div class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
+              <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_backend_title">Backend</h3>
+              <div class="mt-5 flex flex-wrap gap-2 text-sm font-medium">
+                <span class="rounded-full bg-orange-100 px-3 py-1.5 text-orange-800">Rust</span>
+                <span class="rounded-full bg-amber-100 px-3 py-1.5 text-amber-800" data-i18n="tag_lockfree">Safe &amp; lock-free concurrency</span>
+                <span class="rounded-full bg-rose-100 px-3 py-1.5 text-rose-800">RESTful</span>
+                <span class="rounded-full bg-fuchsia-100 px-3 py-1.5 text-fuchsia-800">MTProto</span>
+                <span class="rounded-full bg-pink-100 px-3 py-1.5 text-pink-800">Shards</span>
+              </div>
+            </div>
+
+            <div class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
+              <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_network_title">Network</h3>
+              <div class="mt-5 flex flex-wrap gap-2 text-sm font-medium">
+                <span class="rounded-full bg-emerald-100 px-3 py-1.5 text-emerald-800">L3-L7</span>
+                <span class="rounded-full bg-teal-100 px-3 py-1.5 text-teal-800">IKEv2</span>
+                <span class="rounded-full bg-lime-100 px-3 py-1.5 text-lime-800">WG</span>
+                <span class="rounded-full bg-violet-100 px-3 py-1.5 text-violet-800">XTLS</span>
+                <span class="rounded-full bg-green-100 px-3 py-1.5 text-green-800">Linux</span>
+              </div>
+            </div>
+
+            <div class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft">
+              <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_blockchain_title">Blockchain</h3>
+              <div class="mt-5 flex flex-wrap gap-2 text-sm font-medium">
+                <span class="rounded-full bg-purple-100 px-3 py-1.5 text-purple-800">EVM</span>
+                <span class="rounded-full bg-violet-100 px-3 py-1.5 text-violet-800">Solidity</span>
+              </div>
+            </div>
+
+            <div class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft md:col-span-1 shadow-soft">
+              <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_cicd_title">CI/CD</h3>
+              <div class="mt-5 flex flex-wrap gap-2 text-sm font-medium">
+                <span class="rounded-full bg-slate-200 px-3 py-1.5 text-slate-800">Docker</span>
+                <span class="rounded-full bg-zinc-200 px-3 py-1.5 text-zinc-800">Swarm/Compose</span>
+                <span class="rounded-full bg-neutral-200 px-3 py-1.5 text-neutral-800">Pipelines</span>
+              </div>
+            </div>
+
+            <div class="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft md:col-span-1">
+              <h3 class="text-lg font-semibold text-slate-950" data-i18n="skills_db_title">Database</h3>
+              <div class="mt-5 flex flex-wrap gap-2 text-sm font-medium">
+                <span class="rounded-full bg-blue-100 px-3 py-1.5 text-blue-800">PostgreSQL</span>
+                <span class="rounded-full bg-sky-100 px-3 py-1.5 text-sky-800">ACID</span>
+                <span class="rounded-full bg-cyan-100 px-3 py-1.5 text-cyan-800">Locks</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <section id="process" class="section-anchor border-b border-line bg-white">
       <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -315,13 +314,13 @@
       en: {
         nav_about: 'About',
         nav_services: 'Services',
-        nav_projects: 'Projects',
+        nav_projects: 'Skills',
         nav_contact: 'Contact',
         hero_badge: 'Independent software developer · Madrid, Spain',
         hero_title: 'Mobile apps, backend systems, and security-focused digital products.',
         hero_text: 'I design and build modern software with a strong focus on product quality, performance, clean architecture, and reliable user experience.',
         hero_cta_primary: 'Get in touch',
-        hero_cta_secondary: 'View projects',
+        hero_cta_secondary: 'View stack',
         hero_stat_1: 'Swift, SwiftUI, mobile product development',
         hero_stat_2: 'APIs, infrastructure, service architecture',
         hero_stat_3: 'Networking, privacy-minded engineering',
@@ -349,16 +348,14 @@
         skills_3_title: 'Infrastructure',
         skills_4_title: 'Engineering Focus',
         skills_4_text: 'Security · Performance · Product Thinking · Maintainable Code',
-        projects_kicker: 'Projects',
-        projects_title: 'Selected work',
-        project_feature_title: 'Post-quantum VPN app for iOS',
-        project_feature_text: 'A modern iOS application focused on secure connectivity, mobile UX, networking architecture, and clean product execution.',
-        project_2_title: 'Custom backend systems',
-        project_2_text: 'Service architecture, APIs, admin tooling, and backend logic for digital products and internal platforms.',
-        project_3_title: 'Networking prototypes',
-        project_3_text: 'Research and development of networking-heavy software, secure protocols, and infrastructure-oriented product ideas.',
-        project_4_title: 'Product prototyping',
-        project_4_text: 'Rapid concept validation, interface implementation, and first-version delivery for new software products.',
+        skills_intro: 'A practical stack shaped by product engineering, systems work, networking, and infrastructure.',
+        skills_ios_title: 'iOS Applications',
+        skills_backend_title: 'Backend',
+        skills_network_title: 'Network',
+        skills_blockchain_title: 'Blockchain',
+        skills_cicd_title: 'CI/CD',
+        skills_db_title: 'Database',
+        tag_lockfree: 'Safe & lock-free concurrency',
         process_kicker: 'Process',
         process_title: 'How I work',
         process_1_title: 'Discovery',
@@ -381,13 +378,13 @@
       ru: {
         nav_about: 'Обо мне',
         nav_services: 'Услуги',
-        nav_projects: 'Проекты',
+        nav_projects: 'Стек',
         nav_contact: 'Контакты',
         hero_badge: 'Независимый разработчик ПО · Мадрид, Испания',
         hero_title: 'Мобильные приложения, backend-системы и цифровые продукты с упором на безопасность.',
         hero_text: 'Я проектирую и разрабатываю современное ПО с акцентом на качество продукта, производительность, чистую архитектуру и надёжный пользовательский опыт.',
         hero_cta_primary: 'Связаться',
-        hero_cta_secondary: 'Смотреть проекты',
+        hero_cta_secondary: 'Смотреть стек',
         hero_stat_1: 'Swift, SwiftUI, разработка мобильных продуктов',
         hero_stat_2: 'API, инфраструктура, архитектура сервисов',
         hero_stat_3: 'Сетевые решения и privacy-oriented engineering',
@@ -415,16 +412,14 @@
         skills_3_title: 'Infrastructure',
         skills_4_title: 'Фокус в инженерии',
         skills_4_text: 'Безопасность · Производительность · Продуктовый подход · Поддерживаемый код',
-        projects_kicker: 'Проекты',
-        projects_title: 'Избранные работы',
-        project_feature_title: 'Постквантовый VPN для iOS',
-        project_feature_text: 'Современное iOS-приложение с фокусом на безопасное соединение, мобильный UX, сетевую архитектуру и аккуратную продуктовую реализацию.',
-        project_2_title: 'Кастомные backend-системы',
-        project_2_text: 'Архитектура сервисов, API, админ-инструменты и бизнес-логика для цифровых продуктов и внутренних платформ.',
-        project_3_title: 'Сетевые прототипы',
-        project_3_text: 'Исследование и разработка сетевых продуктов, защищённых протоколов и инфраструктурных продуктовых решений.',
-        project_4_title: 'Продуктовые прототипы',
-        project_4_text: 'Быстрая проверка идеи, реализация интерфейса и выпуск первой версии нового программного продукта.',
+        skills_intro: 'Практический стек, сформированный продуктовой разработкой, системным подходом, сетями и инфраструктурой.',
+        skills_ios_title: 'iOS Applications',
+        skills_backend_title: 'Backend',
+        skills_network_title: 'Network',
+        skills_blockchain_title: 'Blockchain',
+        skills_cicd_title: 'CI/CD',
+        skills_db_title: 'Database',
+        tag_lockfree: 'Безопасная и lock-free concurrency',
         process_kicker: 'Процесс',
         process_title: 'Как я работаю',
         process_1_title: 'Погружение',
